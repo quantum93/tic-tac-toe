@@ -90,6 +90,7 @@ class Game extends React.Component {
 
 function calculateWinner(squares) {
   const lines = [
+    // This is possible winning arrangement in square
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
